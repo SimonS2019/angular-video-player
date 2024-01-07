@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angular-video-player';
+  routes = [
+    { path: 'library1', name: 'Library 1' },
+    { path: 'library2', name: 'Library 2' },
+    // Add more routes as needed
+  ];
 }
