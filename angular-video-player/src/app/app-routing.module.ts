@@ -1,9 +1,10 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { VideoTagComponent } from './video-tag/video-tag.component';
 
 
 const routes: Routes = [
-  // { path: 'library1', component: Library1Component },
+  { path: 'video-tag', component: VideoTagComponent },
   // { path: 'library2', component: Library2Component },
   // Add more routes as needed
 ];
